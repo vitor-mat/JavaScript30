@@ -1,0 +1,50 @@
+*{
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: url('Images/Background_page.jpg') no-repeat;
+    background-size:500px 1000px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 5px;
+}
+
+.row{
+    width: 100%;
+    height: 30vh;
+    margin: 0px;
+}
+
+.top, .center{
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.bottom{
+    font-size: 2.5em;
+}
+
+.left, .middle, .right{
+    border: solid 3px yellow;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+.left, .middle{
+    margin-right: 10px;;
+}
+
+.top{
+    padding-top: 10vh
+}
+
+.bottom{
+    padding-bottom: 10vh;
+}
